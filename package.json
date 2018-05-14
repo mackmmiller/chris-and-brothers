@@ -1,0 +1,17 @@
+{
+  "name": "chris-and-brothers-pc-repair",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}

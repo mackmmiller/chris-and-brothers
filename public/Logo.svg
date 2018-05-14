@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 77">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #3e442b;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 36px;
+      }
+
+      .cls-1 {
+        font-family: Futura-Bold, Futura;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-family: Futura-CondensedMedium, Futura;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #74767f;
+        font-size: 28px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Futura-Medium, Futura;
+      }
+
+      .cls-4 {
+        font-size: 42px;
+        letter-spacing: 0.008em;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-170 -23)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-199 375)">
+      <text id="CHRIS" class="cls-1" transform="translate(369 -315)"><tspan x="0" y="0">CHRIS</tspan></text>
+      <text id="BROTHERS" class="cls-2" transform="translate(369 -283)"><tspan x="0" y="0">BROTHERS</tspan></text>
+    </g>
+    <text id="_" data-name="&amp;" class="cls-3" transform="translate(219 73)"><tspan x="0" y="0">&amp;</tspan></text>
+    <text id="PC_REPAIR" data-name="PC REPAIR" class="cls-4" transform="translate(317 78)"><tspan x="0" y="0">PC REPAIR</tspan></text>
+  </g>
+</svg>
