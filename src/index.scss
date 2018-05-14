@@ -32,8 +32,8 @@ body {
     z-index: -100;
   }
   &::after {
-    background: url("../public/alexandre-debieve-561298-unsplash.jpg") center
-      center no-repeat;
+    background: url("http://res.cloudinary.com/mackmmiller-com/image/upload/v1526259690/alexandre-debieve-561298-unsplash.jpg")
+      center center no-repeat;
     background-size: cover;
     opacity: 0.1;
     z-index: -1000;
