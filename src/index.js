@@ -9,7 +9,7 @@ function cycleWords(words) {
     if (i === words.length) i = 0;
     cycler.innerHTML = words[i];
     i++;
-  }, 2000);
+  }, 1500);
 }
 
 cycleWords(words);

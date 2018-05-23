@@ -99,11 +99,12 @@ nav {
     color: $grey;
   }
   .bubble {
-    margin-left: 18px;
+    // margin-left: 18px;
     background: $green;
     color: white;
     padding: 12px 24px;
-    width: 150px;
+    min-width: 150px;
+    max-width: 200px;
     border-radius: 50px;
     text-align: center;
   }
@@ -129,6 +130,7 @@ nav {
   justify-content: center;
   h2 {
     padding-top: 100px;
+    text-align: center;
   }
   .etc {
     padding-top: 50px;
@@ -151,6 +153,7 @@ nav {
   }
 }
 
+// Reviews
 .review-header {
   text-align: center;
   &:nth-child(2) {
@@ -198,8 +201,14 @@ button {
     transform: rotate(180deg);
   }
 }
-iframe {
-  border-radius: 6px;
+.resp-container {
+  width: 400;
+  height: 300;
+  .resp-iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+  }
 }
 
 // Footer
@@ -207,6 +216,113 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  height: 140px;
+  height: 100px;
   background: $green;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  p {
+    padding-top: 30px;
+  }
+  .signature {
+    color: white;
+    text-decoration: none;
+    &::before {
+      content: "<";
+      visibility: hidden;
+    }
+    &::after {
+      content: ">";
+      visibility: hidden;
+    }
+    &:hover {
+      &::before {
+        visibility: initial;
+      }
+      &::after {
+        visibility: initial;
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////
+///////////////        Small Screens        ///////////////
+///////////////////////////////////////////////////////////
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+
+  header {
+    .nav-link {
+      display: none;
+    }
+    .container {
+      text-align: center;
+      .avoidbreak {
+        display: inline-block;
+      }
+      .bubble {
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+
+  #services {
+    .areas {
+      .lists {
+        flex-direction: column;
+      }
+    }
+  }
+
+  #reviews {
+    .review-header {
+      font-size: 24px;
+    }
+  }
+
+  #contact {
+    flex-direction: column;
+    .resp-container {
+      padding-top: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    padding: 0 20px;
+    font-size: 24px;
+  }
+
+  header {
+    nav ul {
+      li:nth-child(1) {
+        margin: auto;
+      }
+    }
+    .logo {
+      width: 240px;
+    }
+    .nav-link {
+      display: none;
+    }
+    .container {
+      text-align: center;
+      .avoidbreak {
+        display: inline-block;
+      }
+      .bubble {
+        display: block;
+        margin: auto;
+      }
+    }
+  }
 }
